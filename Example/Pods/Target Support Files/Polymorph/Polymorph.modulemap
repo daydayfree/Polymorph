@@ -1,0 +1,6 @@
+framework module Polymorph {
+  umbrella header "Polymorph-umbrella.h"
+
+  export *
+  module * { export * }
+}

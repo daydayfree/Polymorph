@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AAC18BE27AFE7A2F95E3C60 /* Pods_Polymorph_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F63880D258F83C0520D799 /* Pods_Polymorph_Tests.framework */; };
+		39F1DEDC37BDCEAB4F9A8F09 /* Pods_Polymorph_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F63880D258F83C0520D799 /* Pods_Polymorph_Tests.framework */; };
 		5B36CDDA86C76F2490DC14C8 /* Pods_Polymorph_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0AF4BAD7DC124F1EE0DF8E /* Pods_Polymorph_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* PLMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* PLMAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* PLMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PLMViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9867FA2F1E9CE39A003AC8AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9867FA2E1E9CE39A003AC8AD /* XCTest.framework */; };
+		9867FA311E9CE49E003AC8AD /* TransformerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9867FA301E9CE49E003AC8AD /* TransformerTests.m */; };
+		98F517F31E9CDA72004043C6 /* Commit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F517F11E9CDA72004043C6 /* Commit.m */; };
+		98F517F41E9CDA72004043C6 /* CommitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F517F21E9CDA72004043C6 /* CommitsViewController.swift */; };
+		98F517FD1E9CDA7D004043C6 /* Celebrity.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F517F71E9CDA7D004043C6 /* Celebrity.m */; };
+		98F517FE1E9CDA7D004043C6 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F517F91E9CDA7D004043C6 /* Movie.m */; };
+		98F517FF1E9CDA7D004043C6 /* MovieResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F517FB1E9CDA7D004043C6 /* MovieResult.m */; };
+		98F518001E9CDA7D004043C6 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F517FC1E9CDA7D004043C6 /* MoviesViewController.swift */; };
+		98F518021E9CDCEF004043C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F518011E9CDCEF004043C6 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +42,16 @@
 
 /* Begin PBXFileReference section */
 		01343114381279D4CE94B434 /* Pods-Polymorph_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymorph_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polymorph_Example/Pods-Polymorph_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1A5D9C5BA83311B39AB35CC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		30441D3C5B1582E8AB0CE7D4 /* Pods-Polymorph_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymorph_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polymorph_Tests/Pods-Polymorph_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B84C6857C20FFB1B0868DDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A5D9C5BA83311B39AB35CC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1ADBB1FA8C80650443AF76FE /* Pods-Polymorph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymorph_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polymorph_Tests/Pods-Polymorph_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3B84C6857C20FFB1B0868DDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Polymorph_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polymorph_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* Polymorph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polymorph-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* Polymorph-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polymorph-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* PLMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLMAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* PLMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* PLMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLMViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* PLMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* Polymorph_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Polymorph_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,10 +62,23 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F63880D258F83C0520D799 /* Pods_Polymorph_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polymorph_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0AF4BAD7DC124F1EE0DF8E /* Pods_Polymorph_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polymorph_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F9F5C1EBFB90B4F317E19B /* Pods-Polymorph_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymorph_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polymorph_Tests/Pods-Polymorph_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9867FA2E1E9CE39A003AC8AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9867FA301E9CE49E003AC8AD /* TransformerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformerTests.m; sourceTree = "<group>"; };
+		98F517F01E9CDA72004043C6 /* Commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commit.h; sourceTree = "<group>"; };
+		98F517F11E9CDA72004043C6 /* Commit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commit.m; sourceTree = "<group>"; };
+		98F517F21E9CDA72004043C6 /* CommitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitsViewController.swift; sourceTree = "<group>"; };
+		98F517F61E9CDA7D004043C6 /* Celebrity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Celebrity.h; sourceTree = "<group>"; };
+		98F517F71E9CDA7D004043C6 /* Celebrity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Celebrity.m; sourceTree = "<group>"; };
+		98F517F81E9CDA7D004043C6 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		98F517F91E9CDA7D004043C6 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		98F517FA1E9CDA7D004043C6 /* MovieResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieResult.h; sourceTree = "<group>"; };
+		98F517FB1E9CDA7D004043C6 /* MovieResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieResult.m; sourceTree = "<group>"; };
+		98F517FC1E9CDA7D004043C6 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		98F518011E9CDCEF004043C6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98F518031E9CDDEC004043C6 /* Bridge-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Swift.h"; sourceTree = "<group>"; };
 		A040D32B1EA378A4643B4033 /* Pods-Polymorph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymorph_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Polymorph_Example/Pods-Polymorph_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CDD66E1F4E8DDE26B800F218 /* Pods-Polymorph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polymorph_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Polymorph_Tests/Pods-Polymorph_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F533A24F9CE569DC839DBFD8 /* Polymorph.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Polymorph.podspec; path = ../Polymorph.podspec; sourceTree = "<group>"; };
+		F533A24F9CE569DC839DBFD8 /* Polymorph.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Polymorph.podspec; path = ../Polymorph.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				9867FA2F1E9CE39A003AC8AD /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1AAC18BE27AFE7A2F95E3C60 /* Pods_Polymorph_Tests.framework in Frameworks */,
+				39F1DEDC37BDCEAB4F9A8F09 /* Pods_Polymorph_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +110,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for Polymorph */,
+				60FF7A9C1954A5C5007DD14C /* Metadata */,
+				6003F593195388D20070C39A /* Example */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -119,6 +131,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9867FA2E1E9CE39A003AC8AD /* XCTest.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -129,19 +142,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for Polymorph */ = {
+		6003F593195388D20070C39A /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* PLMAppDelegate.h */,
-				6003F59D195388D20070C39A /* PLMAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* PLMViewController.h */,
-				6003F5A6195388D20070C39A /* PLMViewController.m */,
+				98F517F51E9CDA7D004043C6 /* Movies */,
+				98F517EF1E9CDA72004043C6 /* Commits */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				98F518011E9CDCEF004043C6 /* AppDelegate.swift */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				98F518031E9CDDEC004043C6 /* Bridge-Swift.h */,
 			);
-			name = "Example for Polymorph";
+			name = Example;
 			path = Polymorph;
 			sourceTree = "<group>";
 		};
@@ -150,7 +162,6 @@
 			children = (
 				6003F595195388D20070C39A /* Polymorph-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* Polymorph-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -161,6 +172,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				9867FA301E9CE49E003AC8AD /* TransformerTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -175,14 +187,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		60FF7A9C1954A5C5007DD14C /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
 				F533A24F9CE569DC839DBFD8 /* Polymorph.podspec */,
 				3B84C6857C20FFB1B0868DDA /* README.md */,
 				1A5D9C5BA83311B39AB35CC8 /* LICENSE */,
 			);
-			name = "Podspec Metadata";
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+		98F517EF1E9CDA72004043C6 /* Commits */ = {
+			isa = PBXGroup;
+			children = (
+				98F517F01E9CDA72004043C6 /* Commit.h */,
+				98F517F11E9CDA72004043C6 /* Commit.m */,
+				98F517F21E9CDA72004043C6 /* CommitsViewController.swift */,
+			);
+			path = Commits;
+			sourceTree = "<group>";
+		};
+		98F517F51E9CDA7D004043C6 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				98F517F61E9CDA7D004043C6 /* Celebrity.h */,
+				98F517F71E9CDA7D004043C6 /* Celebrity.m */,
+				98F517F81E9CDA7D004043C6 /* Movie.h */,
+				98F517F91E9CDA7D004043C6 /* Movie.m */,
+				98F517FA1E9CDA7D004043C6 /* MovieResult.h */,
+				98F517FB1E9CDA7D004043C6 /* MovieResult.m */,
+				98F517FC1E9CDA7D004043C6 /* MoviesViewController.swift */,
+			);
+			path = Movies;
 			sourceTree = "<group>";
 		};
 		BB7F46E2030DAFCEE89AE44C /* Pods */ = {
@@ -190,8 +226,8 @@
 			children = (
 				A040D32B1EA378A4643B4033 /* Pods-Polymorph_Example.debug.xcconfig */,
 				01343114381279D4CE94B434 /* Pods-Polymorph_Example.release.xcconfig */,
-				30441D3C5B1582E8AB0CE7D4 /* Pods-Polymorph_Tests.debug.xcconfig */,
-				CDD66E1F4E8DDE26B800F218 /* Pods-Polymorph_Tests.release.xcconfig */,
+				84F9F5C1EBFB90B4F317E19B /* Pods-Polymorph_Tests.debug.xcconfig */,
+				1ADBB1FA8C80650443AF76FE /* Pods-Polymorph_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Polymorph_Tests" */;
 			buildPhases = (
-				2D6498D4C0D03318AA322DF5 /* [CP] Check Pods Manifest.lock */,
+				E5CCC207DEF537C66804FA51 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9B8153CE6B6F418038F3B2B8 /* [CP] Embed Pods Frameworks */,
-				5B71F09C943A5CEE8A837602 /* [CP] Copy Pods Resources */,
+				E147E4CA41801574FE8F0F94 /* [CP] Embed Pods Frameworks */,
+				4F3C20D8F1233713A36C7D5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,7 +286,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "daydayfree@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5DS6P2KWFQ;
+						LastSwiftMigration = 0830;
+					};
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0830;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -279,7 +320,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -297,22 +337,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D6498D4C0D03318AA322DF5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5B71F09C943A5CEE8A837602 /* [CP] Copy Pods Resources */ = {
+		4F3C20D8F1233713A36C7D5D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,7 +382,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Polymorph_Example/Pods-Polymorph_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B8153CE6B6F418038F3B2B8 /* [CP] Embed Pods Frameworks */ = {
+		B0C328ABDBBAE09C8E431EF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E147E4CA41801574FE8F0F94 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,7 +412,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Polymorph_Tests/Pods-Polymorph_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B0C328ABDBBAE09C8E431EF9 /* [CP] Check Pods Manifest.lock */ = {
+		E5CCC207DEF537C66804FA51 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,9 +434,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* PLMAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* PLMViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				98F518021E9CDCEF004043C6 /* AppDelegate.swift in Sources */,
+				98F517F31E9CDA72004043C6 /* Commit.m in Sources */,
+				98F517F41E9CDA72004043C6 /* CommitsViewController.swift in Sources */,
+				98F517FE1E9CDA7D004043C6 /* Movie.m in Sources */,
+				98F517FD1E9CDA7D004043C6 /* Celebrity.m in Sources */,
+				98F517FF1E9CDA7D004043C6 /* MovieResult.m in Sources */,
+				98F518001E9CDA7D004043C6 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				9867FA311E9CE49E003AC8AD /* TransformerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -524,12 +569,16 @@
 			baseConfigurationReference = A040D32B1EA378A4643B4033 /* Pods-Polymorph_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DS6P2KWFQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Polymorph/Polymorph-Prefix.pch";
 				INFOPLIST_FILE = "Polymorph/Polymorph-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douban.Polymorph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Polymorph/Bridge-Swift.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,20 +588,25 @@
 			baseConfigurationReference = 01343114381279D4CE94B434 /* Pods-Polymorph_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DS6P2KWFQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Polymorph/Polymorph-Prefix.pch";
 				INFOPLIST_FILE = "Polymorph/Polymorph-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douban.Polymorph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Polymorph/Bridge-Swift.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30441D3C5B1582E8AB0CE7D4 /* Pods-Polymorph_Tests.debug.xcconfig */;
+			baseConfigurationReference = 84F9F5C1EBFB90B4F317E19B /* Pods-Polymorph_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -568,6 +622,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polymorph_Example.app/Polymorph_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -575,8 +630,9 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDD66E1F4E8DDE26B800F218 /* Pods-Polymorph_Tests.release.xcconfig */;
+			baseConfigurationReference = 1ADBB1FA8C80650443AF76FE /* Pods-Polymorph_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -588,6 +644,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polymorph_Example.app/Polymorph_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

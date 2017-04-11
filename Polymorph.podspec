@@ -1,42 +1,24 @@
-#
-# Be sure to run `pod lib lint Polymorph.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'Polymorph'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Polymorph.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.name         = "Polymorph"
+  s.version      = "1.0.6"
+  s.summary      = "Transform value of dictionary to property of Objective-C class."
+  s.description  = <<-DESC
+  Transform value of dictionary to property of Objective-C class, by using a
+  `@dynamic` like directive.
+  DESC
+  s.homepage     = "https://github.com/douban/Polymorph"
+  s.author       = { "Tony Li" => "crazygemini.lee@gmail.com" }
+  s.source       = { :git => "https://github.com/douban/Polymorph.git",
+                     :tag => "v#{s.version}" }
+  s.license      = { :type => "BSD", :file => "LICENSE" }
+  s.source_files = "Polymorph/**/*.{h,m}"
+  s.requires_arc = true
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.ios.deployment_target = '5.0'
+  s.osx.deployment_target = '10.7'
 
-  s.homepage         = 'https://github.com/daydayfree@gmail.com/Polymorph'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'daydayfree@gmail.com' => 'xueming@douban.com' }
-  s.source           = { :git => 'https://github.com/daydayfree@gmail.com/Polymorph.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.dependency "libextobjc/EXTScope", "~> 0.4"
+  s.dependency "libextobjc/RuntimeExtensions", "~> 0.4"
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Polymorph/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Polymorph' => ['Polymorph/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

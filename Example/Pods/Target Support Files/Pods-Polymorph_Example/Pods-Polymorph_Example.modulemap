@@ -1,0 +1,6 @@
+framework module Pods_Polymorph_Example {
+  umbrella header "Pods-Polymorph_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

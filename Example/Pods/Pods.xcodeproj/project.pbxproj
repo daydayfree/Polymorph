@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CD247ACFCA5AC4F6B2ECDC2A0080BA5 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F34AB01C69A36570235BF27598A153 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E00E3EEA6D69D952966962C149DB5E4 /* PLMURLTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 393F0D380F64952C44FCF3AF7E7BF778 /* PLMURLTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E24BDED5F3D98EC0CF5549858251CD2 /* PLMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F98BA871D5982D2D2F6B4E1D6A73C1B5 /* PLMModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2FB215B4BAC578FD7D91CC0BBF80D813 /* PLMArrayTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 297E69CD8ABA3D964313893CA61583AE /* PLMArrayTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3708E4CBFFB519B4E49547AE9C80D66E /* Pods-Polymorph_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49EA1EE24C0B3906D28B984E8485C73 /* Pods-Polymorph_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A00B45B734FEA35E9FF82AF8F8E0F86 /* Polymorph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E94C20EF3DAA3229B8B20FAC9CD85D /* Polymorph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55693231B787F6B837CD35A090156029 /* PLMRawDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B694E1D776FB5C779F7B2243E92B302 /* PLMRawDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		592FF8D9CA573DDD6130C499F62C368D /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD0B8559E869D55F82B5E53A32C8397 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B2F223F611F60CAE392F4F130025E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6AA30A71771BD74FEA91157A65A3B /* Foundation.framework */; };
+		61E373ED8BF9D0D5B8D308B9F940CCF8 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CADF115D9C903646D89890D6CAEDB /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		627ED4A2C0B2794691B2CE342509E70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6AA30A71771BD74FEA91157A65A3B /* Foundation.framework */; };
+		694357AE07D1255192EB4B18E53773A5 /* PLMModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F757CFD8D7A6F2AC8B7B34AEBB26FE8 /* PLMModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7594F61931205472BD8613CE914A710C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6AA30A71771BD74FEA91157A65A3B /* Foundation.framework */; };
+		9659BD71A1A81A7EE8FCBB455C717B30 /* Polymorph.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A1AFF647B8BD27456B35B4D6F855AB /* Polymorph.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F0C9B09B653DC273DEB1BFE1138DB03 /* libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F59F6CEB1472C964D465FC35A0E825 /* libextobjc-dummy.m */; };
+		A13525ABE1F0C43AAAF0B79BE5908524 /* PLMValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B357FBA9BD4115BBDE16BACC13EAD62 /* PLMValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A180273E8CF955F993E113B7B980A72E /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AD60620C19DCD6AADA30E41B1A04C9 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8E6CE28324FE1E0B41E35C56AB0EC4 /* Pods-Polymorph_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E0475A21595C7442F41619DACC13DB /* Pods-Polymorph_Tests-dummy.m */; };
+		AD6EEACB7B171BB7784C5F05EA5A6DC5 /* PLMValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EC31121A74ACA3385B387F9ED2BBDC /* PLMValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF4B85B88ED87AB4CBC3DC6B177FE2B4 /* Polymorph.h in Headers */ = {isa = PBXBuildFile; fileRef = F97817692DC1CE411C76A152C135B8C3 /* Polymorph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B14D547B1F530E8E5AB1401B786A84DC /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BDCD20755010874D4D38668404ABA1 /* libextobjc.framework */; };
+		B806C1FB6AFE37AE2C728F214279FCDD /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EABDA9573E4E2879C5850B60C6359 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD9788EC5EBC01DCA331FD2C720B002B /* PLMURLTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B25BD47E0C39E074C9A8664AA63E07F0 /* PLMURLTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8640C6AFDC62CC0AA0E531C4790AAEC /* PLMArrayTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5405EA503B477F34719BA625F4DE80FB /* PLMArrayTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D05F4447095ABFEFA206BD5D2C644602 /* Pods-Polymorph_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A39F5E2527B9BD13CEE17D3F4EFB47C /* Pods-Polymorph_Example-dummy.m */; };
+		DBD5B6D7D7432713315D34329811E346 /* libextobjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B178D28D4161BC66FB0BCA8B6ECE58A4 /* libextobjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE0E1FBDB4091848DFD681D2196321E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6AA30A71771BD74FEA91157A65A3B /* Foundation.framework */; };
+		EDF9B7E01132304CA2FA10FB8B5BF16C /* Polymorph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E0D8E4319E550DA76F96CFF5F1BAD9 /* Polymorph-dummy.m */; };
+		F3A28BA81A7E77AAADF5450C9908F8EF /* Pods-Polymorph_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E59FF48FB5917C89711D62BDCCBB8F22 /* Pods-Polymorph_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1066E5FADBB35F1E4D9A06FB198B6AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4739BE03E4F224CF8B2587CF694DCBC7;
+			remoteInfo = libextobjc;
+		};
+		8FF1BD3D725B8892492E69998DAA4DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F258460D5C4F80638DDBACD6700D39D;
+			remoteInfo = Polymorph;
+		};
+		EB1334DAE87DA51650BD30BAF45B12FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4739BE03E4F224CF8B2587CF694DCBC7;
+			remoteInfo = libextobjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E94C20EF3DAA3229B8B20FAC9CD85D /* Polymorph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polymorph-umbrella.h"; sourceTree = "<group>"; };
+		071EABDA9573E4E2879C5850B60C6359 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		0B357FBA9BD4115BBDE16BACC13EAD62 /* PLMValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLMValueTransformer.h; sourceTree = "<group>"; };
+		10C742928124D1481AF9ABAE8023724B /* Pods-Polymorph_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polymorph_Example-resources.sh"; sourceTree = "<group>"; };
+		10DAD333002E8D915C17A0554919363F /* Pods-Polymorph_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polymorph_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		297E69CD8ABA3D964313893CA61583AE /* PLMArrayTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLMArrayTransformer.h; sourceTree = "<group>"; };
+		2A39F5E2527B9BD13CEE17D3F4EFB47C /* Pods-Polymorph_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polymorph_Example-dummy.m"; sourceTree = "<group>"; };
+		2B36ED8694369C4B2175E7FB27F42FF4 /* Pods-Polymorph_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polymorph_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F757CFD8D7A6F2AC8B7B34AEBB26FE8 /* PLMModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLMModel.h; sourceTree = "<group>"; };
+		38085F469F1C73C90EC7A39CD69BBECA /* Polymorph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Polymorph.modulemap; sourceTree = "<group>"; };
+		3920292A69F13261C2A0E85673F466CC /* libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-prefix.pch"; sourceTree = "<group>"; };
+		393F0D380F64952C44FCF3AF7E7BF778 /* PLMURLTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLMURLTransformer.h; sourceTree = "<group>"; };
+		4E0CADF115D9C903646D89890D6CAEDB /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = extobjc/EXTScope.m; sourceTree = "<group>"; };
+		5405EA503B477F34719BA625F4DE80FB /* PLMArrayTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PLMArrayTransformer.m; sourceTree = "<group>"; };
+		57E0475A21595C7442F41619DACC13DB /* Pods-Polymorph_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polymorph_Tests-dummy.m"; sourceTree = "<group>"; };
+		59E0DB2BDD472CF7AE27A6DBE077D143 /* Pods-Polymorph_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polymorph_Tests-resources.sh"; sourceTree = "<group>"; };
+		67BC4C9DA4C862A68B922C12C76CDFDF /* Polymorph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polymorph-prefix.pch"; sourceTree = "<group>"; };
+		6B694E1D776FB5C779F7B2243E92B302 /* PLMRawDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLMRawDataProvider.h; sourceTree = "<group>"; };
+		6F006990C3782C003C1BB6C9EFCCE830 /* libextobjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = libextobjc.modulemap; sourceTree = "<group>"; };
+		700E475820008F3BB7BCCEA39CF265D9 /* libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libextobjc.xcconfig; sourceTree = "<group>"; };
+		7625B762A69151FA8F46EC503D444755 /* Pods-Polymorph_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Polymorph_Tests.modulemap"; sourceTree = "<group>"; };
+		7C435FC772DA62E193C7C2C4775B3AA9 /* Pods-Polymorph_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polymorph_Example.release.xcconfig"; sourceTree = "<group>"; };
+		83F59F6CEB1472C964D465FC35A0E825 /* libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libextobjc-dummy.m"; sourceTree = "<group>"; };
+		8681579E2A5225980E0308181F52E81D /* Pods-Polymorph_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polymorph_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CD430B266F945C2BCEB9612DF406C2 /* Pods-Polymorph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polymorph_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA23FDEF07A396B589D9D44B3530A9B /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libextobjc.framework; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB489AAF947256944DE2303EF4473C3 /* Pods-Polymorph_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polymorph_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B178D28D4161BC66FB0BCA8B6ECE58A4 /* libextobjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-umbrella.h"; sourceTree = "<group>"; };
+		B17A985F9B5D67D868EE503BAB8DFB4F /* Pods-Polymorph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polymorph_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B25BD47E0C39E074C9A8664AA63E07F0 /* PLMURLTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PLMURLTransformer.m; sourceTree = "<group>"; };
+		B49F22FDE9B9FA392984FE1CBDE06DBC /* Pods-Polymorph_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Polymorph_Example.modulemap"; sourceTree = "<group>"; };
+		B8F34AB01C69A36570235BF27598A153 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		BAF9C36E12D550C66A7D5E68191E6C20 /* Pods_Polymorph_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Polymorph_Example.framework; path = "Pods-Polymorph_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5E1180FFB62D3E7442BF5F4FBA73DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4504119A6DF5429ED843B4DCAC84DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D6AA30A71771BD74FEA91157A65A3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C37246C5DCCC0541AA692263D7C68DBA /* Pods-Polymorph_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polymorph_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C65B8F4F1190DA03C0BD29DFE98876B7 /* Polymorph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polymorph.framework; path = Polymorph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CEB7423CFDD33B0DB1FB3BDEC69570 /* Pods-Polymorph_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polymorph_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD0B8559E869D55F82B5E53A32C8397 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = extobjc/EXTScope.h; sourceTree = "<group>"; };
+		D1BDCD20755010874D4D38668404ABA1 /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A1AFF647B8BD27456B35B4D6F855AB /* Polymorph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Polymorph.m; sourceTree = "<group>"; };
+		D589F149CB283D8350F17EC9D23729F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D882CE7C69A1C0936E0693ED27DBAA9F /* Pods_Polymorph_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Polymorph_Tests.framework; path = "Pods-Polymorph_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59FF48FB5917C89711D62BDCCBB8F22 /* Pods-Polymorph_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polymorph_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E5E0D8E4319E550DA76F96CFF5F1BAD9 /* Polymorph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polymorph-dummy.m"; sourceTree = "<group>"; };
+		E7AD60620C19DCD6AADA30E41B1A04C9 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = extobjc/metamacros.h; sourceTree = "<group>"; };
+		F0DECC1D2D8BDB3B37B05FC95F858A27 /* Polymorph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polymorph.xcconfig; sourceTree = "<group>"; };
+		F1249F05F9E05AEAB2148834BBB09FFC /* Pods-Polymorph_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polymorph_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F49EA1EE24C0B3906D28B984E8485C73 /* Pods-Polymorph_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polymorph_Example-umbrella.h"; sourceTree = "<group>"; };
+		F6EC31121A74ACA3385B387F9ED2BBDC /* PLMValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PLMValueTransformer.m; sourceTree = "<group>"; };
+		F97817692DC1CE411C76A152C135B8C3 /* Polymorph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Polymorph.h; sourceTree = "<group>"; };
+		F98BA871D5982D2D2F6B4E1D6A73C1B5 /* PLMModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PLMModel.m; sourceTree = "<group>"; };
+		FDDA6E38083B83E1AB39CEFB3282A5F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1970782CA13063E4DA60E07CA97C2BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2F223F611F60CAE392F4F130025E2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B24C49CACDD07D5CAF06EAF76419E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627ED4A2C0B2794691B2CE342509E70D /* Foundation.framework in Frameworks */,
+				B14D547B1F530E8E5AB1401B786A84DC /* libextobjc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EF0A076588A7EC877F0D6CF19D77FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE0E1FBDB4091848DFD681D2196321E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F971B57D15CE819B68DDDEF9A248894C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7594F61931205472BD8613CE914A710C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02386084FAF70249956E9DA82C5600B7 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				297E69CD8ABA3D964313893CA61583AE /* PLMArrayTransformer.h */,
+				5405EA503B477F34719BA625F4DE80FB /* PLMArrayTransformer.m */,
+				393F0D380F64952C44FCF3AF7E7BF778 /* PLMURLTransformer.h */,
+				B25BD47E0C39E074C9A8664AA63E07F0 /* PLMURLTransformer.m */,
+				0B357FBA9BD4115BBDE16BACC13EAD62 /* PLMValueTransformer.h */,
+				F6EC31121A74ACA3385B387F9ED2BBDC /* PLMValueTransformer.m */,
+			);
+			name = Transformers;
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+		0636CD63B11956C02F6D55752CFA1FCE /* Polymorph */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDEF558DEA2A1854FBF6C88B63D902 /* Polymorph */,
+				A0DDC1FC75FEF806D451F7FBF394EC48 /* Support Files */,
+			);
+			name = Polymorph;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0B020CF96333259D8133CF4B667C3368 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				164B893C18CAB66471D7638B4D407C74 /* Pods-Polymorph_Example */,
+				C0DA3C8441742DF18AE3024937949F3C /* Pods-Polymorph_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12A24D6D8456CD22991D2B214A67518C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0636CD63B11956C02F6D55752CFA1FCE /* Polymorph */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		164B893C18CAB66471D7638B4D407C74 /* Pods-Polymorph_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BB5E1180FFB62D3E7442BF5F4FBA73DA /* Info.plist */,
+				B49F22FDE9B9FA392984FE1CBDE06DBC /* Pods-Polymorph_Example.modulemap */,
+				2B36ED8694369C4B2175E7FB27F42FF4 /* Pods-Polymorph_Example-acknowledgements.markdown */,
+				C37246C5DCCC0541AA692263D7C68DBA /* Pods-Polymorph_Example-acknowledgements.plist */,
+				2A39F5E2527B9BD13CEE17D3F4EFB47C /* Pods-Polymorph_Example-dummy.m */,
+				8681579E2A5225980E0308181F52E81D /* Pods-Polymorph_Example-frameworks.sh */,
+				10C742928124D1481AF9ABAE8023724B /* Pods-Polymorph_Example-resources.sh */,
+				F49EA1EE24C0B3906D28B984E8485C73 /* Pods-Polymorph_Example-umbrella.h */,
+				98CD430B266F945C2BCEB9612DF406C2 /* Pods-Polymorph_Example.debug.xcconfig */,
+				7C435FC772DA62E193C7C2C4775B3AA9 /* Pods-Polymorph_Example.release.xcconfig */,
+			);
+			name = "Pods-Polymorph_Example";
+			path = "Target Support Files/Pods-Polymorph_Example";
+			sourceTree = "<group>";
+		};
+		368B8242A2C2B9283F9599449B35929B /* EXTScope */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0B8559E869D55F82B5E53A32C8397 /* EXTScope.h */,
+				4E0CADF115D9C903646D89890D6CAEDB /* EXTScope.m */,
+			);
+			name = EXTScope;
+			sourceTree = "<group>";
+		};
+		3DB486208DFE8DBD8E1769E92FBEC30C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA6E38083B83E1AB39CEFB3282A5F2 /* Info.plist */,
+				6F006990C3782C003C1BB6C9EFCCE830 /* libextobjc.modulemap */,
+				700E475820008F3BB7BCCEA39CF265D9 /* libextobjc.xcconfig */,
+				83F59F6CEB1472C964D465FC35A0E825 /* libextobjc-dummy.m */,
+				3920292A69F13261C2A0E85673F466CC /* libextobjc-prefix.pch */,
+				B178D28D4161BC66FB0BCA8B6ECE58A4 /* libextobjc-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libextobjc";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				12A24D6D8456CD22991D2B214A67518C /* Development Pods */,
+				956BBEE05ACE63238A65691BE361CD38 /* Frameworks */,
+				B9FB3583E4924DCFF71F5DC167027E71 /* Pods */,
+				B7E0885611D537A909BC4EED8196143D /* Products */,
+				0B020CF96333259D8133CF4B667C3368 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82B73BFD354A894B0FE73BB7E2E2DF12 /* libextobjc */ = {
+			isa = PBXGroup;
+			children = (
+				368B8242A2C2B9283F9599449B35929B /* EXTScope */,
+				8D5B57C19BC69F74772D2097C0A36763 /* RuntimeExtensions */,
+				3DB486208DFE8DBD8E1769E92FBEC30C /* Support Files */,
+			);
+			name = libextobjc;
+			path = libextobjc;
+			sourceTree = "<group>";
+		};
+		8D5B57C19BC69F74772D2097C0A36763 /* RuntimeExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8F34AB01C69A36570235BF27598A153 /* EXTRuntimeExtensions.h */,
+				071EABDA9573E4E2879C5850B60C6359 /* EXTRuntimeExtensions.m */,
+				E7AD60620C19DCD6AADA30E41B1A04C9 /* metamacros.h */,
+			);
+			name = RuntimeExtensions;
+			sourceTree = "<group>";
+		};
+		8FCDEF558DEA2A1854FBF6C88B63D902 /* Polymorph */ = {
+			isa = PBXGroup;
+			children = (
+				2F757CFD8D7A6F2AC8B7B34AEBB26FE8 /* PLMModel.h */,
+				F98BA871D5982D2D2F6B4E1D6A73C1B5 /* PLMModel.m */,
+				6B694E1D776FB5C779F7B2243E92B302 /* PLMRawDataProvider.h */,
+				F97817692DC1CE411C76A152C135B8C3 /* Polymorph.h */,
+				D2A1AFF647B8BD27456B35B4D6F855AB /* Polymorph.m */,
+				02386084FAF70249956E9DA82C5600B7 /* Transformers */,
+			);
+			name = Polymorph;
+			path = Polymorph;
+			sourceTree = "<group>";
+		};
+		956BBEE05ACE63238A65691BE361CD38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BDCD20755010874D4D38668404ABA1 /* libextobjc.framework */,
+				E73B9C9F0CCBEB2E48C5DF6CED734BA1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0DDC1FC75FEF806D451F7FBF394EC48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D589F149CB283D8350F17EC9D23729F4 /* Info.plist */,
+				38085F469F1C73C90EC7A39CD69BBECA /* Polymorph.modulemap */,
+				F0DECC1D2D8BDB3B37B05FC95F858A27 /* Polymorph.xcconfig */,
+				E5E0D8E4319E550DA76F96CFF5F1BAD9 /* Polymorph-dummy.m */,
+				67BC4C9DA4C862A68B922C12C76CDFDF /* Polymorph-prefix.pch */,
+				05E94C20EF3DAA3229B8B20FAC9CD85D /* Polymorph-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Polymorph";
+			sourceTree = "<group>";
+		};
+		B7E0885611D537A909BC4EED8196143D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA23FDEF07A396B589D9D44B3530A9B /* libextobjc.framework */,
+				BAF9C36E12D550C66A7D5E68191E6C20 /* Pods_Polymorph_Example.framework */,
+				D882CE7C69A1C0936E0693ED27DBAA9F /* Pods_Polymorph_Tests.framework */,
+				C65B8F4F1190DA03C0BD29DFE98876B7 /* Polymorph.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9FB3583E4924DCFF71F5DC167027E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82B73BFD354A894B0FE73BB7E2E2DF12 /* libextobjc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0DA3C8441742DF18AE3024937949F3C /* Pods-Polymorph_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4504119A6DF5429ED843B4DCAC84DF /* Info.plist */,
+				7625B762A69151FA8F46EC503D444755 /* Pods-Polymorph_Tests.modulemap */,
+				10DAD333002E8D915C17A0554919363F /* Pods-Polymorph_Tests-acknowledgements.markdown */,
+				F1249F05F9E05AEAB2148834BBB09FFC /* Pods-Polymorph_Tests-acknowledgements.plist */,
+				57E0475A21595C7442F41619DACC13DB /* Pods-Polymorph_Tests-dummy.m */,
+				AAB489AAF947256944DE2303EF4473C3 /* Pods-Polymorph_Tests-frameworks.sh */,
+				59E0DB2BDD472CF7AE27A6DBE077D143 /* Pods-Polymorph_Tests-resources.sh */,
+				E59FF48FB5917C89711D62BDCCBB8F22 /* Pods-Polymorph_Tests-umbrella.h */,
+				C6CEB7423CFDD33B0DB1FB3BDEC69570 /* Pods-Polymorph_Tests.debug.xcconfig */,
+				B17A985F9B5D67D868EE503BAB8DFB4F /* Pods-Polymorph_Tests.release.xcconfig */,
+			);
+			name = "Pods-Polymorph_Tests";
+			path = "Target Support Files/Pods-Polymorph_Tests";
+			sourceTree = "<group>";
+		};
+		E73B9C9F0CCBEB2E48C5DF6CED734BA1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6AA30A71771BD74FEA91157A65A3B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31BD51FA2BC01A6595DF5505924E1709 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB215B4BAC578FD7D91CC0BBF80D813 /* PLMArrayTransformer.h in Headers */,
+				694357AE07D1255192EB4B18E53773A5 /* PLMModel.h in Headers */,
+				55693231B787F6B837CD35A090156029 /* PLMRawDataProvider.h in Headers */,
+				1E00E3EEA6D69D952966962C149DB5E4 /* PLMURLTransformer.h in Headers */,
+				A13525ABE1F0C43AAAF0B79BE5908524 /* PLMValueTransformer.h in Headers */,
+				4A00B45B734FEA35E9FF82AF8F8E0F86 /* Polymorph-umbrella.h in Headers */,
+				AF4B85B88ED87AB4CBC3DC6B177FE2B4 /* Polymorph.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB36E1F55CAE8022F97835B071C655E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD247ACFCA5AC4F6B2ECDC2A0080BA5 /* EXTRuntimeExtensions.h in Headers */,
+				592FF8D9CA573DDD6130C499F62C368D /* EXTScope.h in Headers */,
+				DBD5B6D7D7432713315D34329811E346 /* libextobjc-umbrella.h in Headers */,
+				A180273E8CF955F993E113B7B980A72E /* metamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3582325A8233606CDD8CC5F28C9B06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3708E4CBFFB519B4E49547AE9C80D66E /* Pods-Polymorph_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF54D99E07810AC18EE725DF60DCD6E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A28BA81A7E77AAADF5450C9908F8EF /* Pods-Polymorph_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4739BE03E4F224CF8B2587CF694DCBC7 /* libextobjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9139D183CCD707BFA9C17D1C31C388 /* Build configuration list for PBXNativeTarget "libextobjc" */;
+			buildPhases = (
+				2E98325E1363A8D018DD7B04773CD93F /* Sources */,
+				F971B57D15CE819B68DDDEF9A248894C /* Frameworks */,
+				BB36E1F55CAE8022F97835B071C655E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libextobjc;
+			productName = libextobjc;
+			productReference = 9CA23FDEF07A396B589D9D44B3530A9B /* libextobjc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		873241DBBE7454D336C6F7C610939438 /* Pods-Polymorph_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97EB8814630A9637080421A69272D4E /* Build configuration list for PBXNativeTarget "Pods-Polymorph_Example" */;
+			buildPhases = (
+				B5A73D7B85E02A3C6558B129EF7BDA42 /* Sources */,
+				94EF0A076588A7EC877F0D6CF19D77FC /* Frameworks */,
+				CF3582325A8233606CDD8CC5F28C9B06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A923DCC7DE1BF662BAF101FDE01D4928 /* PBXTargetDependency */,
+				C3E02372429E8DF04F57B2C691BFA284 /* PBXTargetDependency */,
+			);
+			name = "Pods-Polymorph_Example";
+			productName = "Pods-Polymorph_Example";
+			productReference = BAF9C36E12D550C66A7D5E68191E6C20 /* Pods_Polymorph_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B4AB11EE43DB383E1BE3D35984D5A8C /* Pods-Polymorph_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43371774C8EC94A67E220248A6C964EA /* Build configuration list for PBXNativeTarget "Pods-Polymorph_Tests" */;
+			buildPhases = (
+				3223A760B040BC7ED28925F0B80A742A /* Sources */,
+				1970782CA13063E4DA60E07CA97C2BF1 /* Frameworks */,
+				CF54D99E07810AC18EE725DF60DCD6E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Polymorph_Tests";
+			productName = "Pods-Polymorph_Tests";
+			productReference = D882CE7C69A1C0936E0693ED27DBAA9F /* Pods_Polymorph_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F258460D5C4F80638DDBACD6700D39D /* Polymorph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696160C9E053DE1D30F2E3EA3DD0E72D /* Build configuration list for PBXNativeTarget "Polymorph" */;
+			buildPhases = (
+				7AF300D7A14C8099D24CD53C5A922193 /* Sources */,
+				4B24C49CACDD07D5CAF06EAF76419E44 /* Frameworks */,
+				31BD51FA2BC01A6595DF5505924E1709 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3FECBE9891B78A41F1267AB8C43DEE /* PBXTargetDependency */,
+			);
+			name = Polymorph;
+			productName = Polymorph;
+			productReference = C65B8F4F1190DA03C0BD29DFE98876B7 /* Polymorph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B7E0885611D537A909BC4EED8196143D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4739BE03E4F224CF8B2587CF694DCBC7 /* libextobjc */,
+				873241DBBE7454D336C6F7C610939438 /* Pods-Polymorph_Example */,
+				8B4AB11EE43DB383E1BE3D35984D5A8C /* Pods-Polymorph_Tests */,
+				8F258460D5C4F80638DDBACD6700D39D /* Polymorph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E98325E1363A8D018DD7B04773CD93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B806C1FB6AFE37AE2C728F214279FCDD /* EXTRuntimeExtensions.m in Sources */,
+				61E373ED8BF9D0D5B8D308B9F940CCF8 /* EXTScope.m in Sources */,
+				9F0C9B09B653DC273DEB1BFE1138DB03 /* libextobjc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3223A760B040BC7ED28925F0B80A742A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8E6CE28324FE1E0B41E35C56AB0EC4 /* Pods-Polymorph_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF300D7A14C8099D24CD53C5A922193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8640C6AFDC62CC0AA0E531C4790AAEC /* PLMArrayTransformer.m in Sources */,
+				1E24BDED5F3D98EC0CF5549858251CD2 /* PLMModel.m in Sources */,
+				BD9788EC5EBC01DCA331FD2C720B002B /* PLMURLTransformer.m in Sources */,
+				AD6EEACB7B171BB7784C5F05EA5A6DC5 /* PLMValueTransformer.m in Sources */,
+				EDF9B7E01132304CA2FA10FB8B5BF16C /* Polymorph-dummy.m in Sources */,
+				9659BD71A1A81A7EE8FCBB455C717B30 /* Polymorph.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A73D7B85E02A3C6558B129EF7BDA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05F4447095ABFEFA206BD5D2C644602 /* Pods-Polymorph_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A923DCC7DE1BF662BAF101FDE01D4928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polymorph;
+			target = 8F258460D5C4F80638DDBACD6700D39D /* Polymorph */;
+			targetProxy = 8FF1BD3D725B8892492E69998DAA4DC3 /* PBXContainerItemProxy */;
+		};
+		C3E02372429E8DF04F57B2C691BFA284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libextobjc;
+			target = 4739BE03E4F224CF8B2587CF694DCBC7 /* libextobjc */;
+			targetProxy = EB1334DAE87DA51650BD30BAF45B12FC /* PBXContainerItemProxy */;
+		};
+		EE3FECBE9891B78A41F1267AB8C43DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libextobjc;
+			target = 4739BE03E4F224CF8B2587CF694DCBC7 /* libextobjc */;
+			targetProxy = 1066E5FADBB35F1E4D9A06FB198B6AB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0830AAEB921F2C37A719BC8C5E5E7C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700E475820008F3BB7BCCEA39CF265D9 /* libextobjc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libextobjc/libextobjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libextobjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libextobjc/libextobjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = libextobjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B195FB27020E8C9EA1E586FB324E4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CEB7423CFDD33B0DB1FB3BDEC69570 /* Pods-Polymorph_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Polymorph_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Polymorph_Tests/Pods-Polymorph_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Polymorph_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3531A43DF4B1619DE691009E2EA90CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17A985F9B5D67D868EE503BAB8DFB4F /* Pods-Polymorph_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Polymorph_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Polymorph_Tests/Pods-Polymorph_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Polymorph_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4EC697B8BD9C70491F01B6B300A4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700E475820008F3BB7BCCEA39CF265D9 /* libextobjc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libextobjc/libextobjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libextobjc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libextobjc/libextobjc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = libextobjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8B95464B8C41BCAAD418B2006EAB9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CD430B266F945C2BCEB9612DF406C2 /* Pods-Polymorph_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Polymorph_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Polymorph_Example/Pods-Polymorph_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Polymorph_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B00F4D775306FF9A14D099483B6BF121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DECC1D2D8BDB3B37B05FC95F858A27 /* Polymorph.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polymorph/Polymorph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polymorph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polymorph/Polymorph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Polymorph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8FA86079A9CADAC10EAE88831A4FBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DECC1D2D8BDB3B37B05FC95F858A27 /* Polymorph.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polymorph/Polymorph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polymorph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polymorph/Polymorph.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Polymorph;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8F722B7E9E9C5EC54CAAB3251D0989D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C435FC772DA62E193C7C2C4775B3AA9 /* Pods-Polymorph_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Polymorph_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Polymorph_Example/Pods-Polymorph_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Polymorph_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43371774C8EC94A67E220248A6C964EA /* Build configuration list for PBXNativeTarget "Pods-Polymorph_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B195FB27020E8C9EA1E586FB324E4C9 /* Debug */,
+				3531A43DF4B1619DE691009E2EA90CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696160C9E053DE1D30F2E3EA3DD0E72D /* Build configuration list for PBXNativeTarget "Polymorph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00F4D775306FF9A14D099483B6BF121 /* Debug */,
+				D8FA86079A9CADAC10EAE88831A4FBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9139D183CCD707BFA9C17D1C31C388 /* Build configuration list for PBXNativeTarget "libextobjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0830AAEB921F2C37A719BC8C5E5E7C7F /* Debug */,
+				5D4EC697B8BD9C70491F01B6B300A4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97EB8814630A9637080421A69272D4E /* Build configuration list for PBXNativeTarget "Pods-Polymorph_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B95464B8C41BCAAD418B2006EAB9DF /* Debug */,
+				E8F722B7E9E9C5EC54CAAB3251D0989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
