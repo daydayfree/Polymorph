@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Polymorph_Example' do
+  pod 'Polymorph', :path => '../'
+
+  target 'Polymorph_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
